@@ -1,0 +1,32 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+body{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+h2{
+    padding-bottom: 20%;
+}
+img{
+    height: 250px;
+    width: 50%;
+    margin: auto;
+    animation: bulb 3s linear infinite alternate;
+    transform-origin: top;
+}
+
+@keyframes bulb{
+    from{
+        transform: rotateZ(-50deg);
+
+    }
+    to{
+        transform: rotateZ(50deg);
+    }
+}
